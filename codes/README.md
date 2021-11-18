@@ -49,8 +49,11 @@ If we want to recover the superpoly of a cube whose indexes are {0, 1, ..., 79} 
 The retrieved superpolys are expressed as lists of monomials. The following data 
 
 ` 27  3`
+
 ` 26  3`
+
 ` 25 26  3`
+
 ` 24 25  3`
 
 means the superpoly constains k_27, k_26, k_25 * k_26, k_24 * k_25. The number "3" is the number of solutions this monomial relates to.
