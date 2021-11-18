@@ -1,0 +1,1070 @@
+
+
+--------------- Meaningful cubes for key 2, preset v-1 --------------------
+	 EXCLUDE cube 0: v0, v1
+	 EXCLUDE cube 1: v0, v2
+	 EXCLUDE cube 2: v0, v3
+	 EXCLUDE cube 3: v0, v4
+	 EXCLUDE cube 4: v0, v5
+	 Linear cube 1: v0, v6 -------- [634]
+	 EXCLUDE cube 5: v0, v7
+	 Linear cube 2: v0, v8 -------- [4]
+	 EXCLUDE cube 6: v0, v10
+	 EXCLUDE cube 7: v0, v12
+	 EXCLUDE cube 8: v0, v13
+	 EXCLUDE cube 9: v0, v14
+	 EXCLUDE cube 10: v0, v15
+	 EXCLUDE cube 11: v0, v16
+	 Linear cube 3: v0, v17 -------- [172]
+	 EXCLUDE cube 12: v0, v18
+	 EXCLUDE cube 13: v0, v19
+	 Linear cube 4: v0, v20 -------- [48]
+	 Linear cube 5: v0, v21 +++++++++++++++++++ [1]
+	 Linear cube 6: v0, v22 +++++++++++++++++++ [27]
+	 Linear cube 7: v0, v23 +++++++++++++++++++ [79]
+	 EXCLUDE cube 14: v0, v24
+	 Linear cube 8: v0, v25 -------- [4]
+	 Linear cube 9: v0, v26 -------- [4]
+	 EXCLUDE cube 15: v0, v27
+	 EXCLUDE cube 16: v0, v28
+	 Linear cube 10: v0, v29 -------- [510]
+	 Linear cube 11: v0, v30 -------- [310]
+	 EXCLUDE cube 17: v0, v31
+	 Linear cube 12: v0, v32 -------- [1170]
+	 Linear cube 13: v0, v33 -------- [24]
+	 Linear cube 14: v0, v34 -------- [24]
+	 Linear cube 15: v0, v35 -------- [582]
+	 Linear cube 16: v0, v37 +++++++++++++++++++ [5]
+	 Linear cube 17: v0, v39 -------- [48]
+	 Linear cube 18: v0, v40 +++++++++++++++++++ [33]
+	 Linear cube 19: v0, v41 -------- [124]
+	 Linear cube 20: v0, v42 +++++++++++++++++++ [289]
+	 Linear cube 21: v0, v43 +++++++++++++++++++ [1]
+	 Linear cube 22: v0, v45 +++++++++++++++++++ [15]
+	 Linear cube 23: v0, v47 -------- [104]
+	 Linear cube 24: v0, v48 +++++++++++++++++++ [257]
+	 Linear cube 25: v0, v49 -------- [186]
+	 Linear cube 26: v0, v50 +++++++++++++++++++ [487]
+	 EXCLUDE cube 18: v0, v53
+	 Linear cube 27: v0, v54 -------- [24]
+	 Linear cube 28: v0, v55 -------- [24]
+	 Linear cube 29: v0, v56 -------- [48]
+	 EXCLUDE cube 19: v0, v57
+	 Linear cube 30: v0, v58 -------- [420]
+	 Linear cube 31: v0, v59 +++++++++++++++++++ [21]
+	 Linear cube 32: v0, v60 -------- [12]
+	 Linear cube 33: v0, v61 -------- [24]
+	 Linear cube 34: v0, v62 -------- [148]
+	 Linear cube 35: v0, v63 +++++++++++++++++++ [89]
+	 Linear cube 36: v0, v64 -------- [64]
+	 Linear cube 37: v0, v65 -------- [16]
+	 EXCLUDE cube 20: v0, v66
+	 EXCLUDE cube 21: v0, v68
+	 Linear cube 38: v0, v71 +++++++++++++++++++ [49]
+	 Linear cube 39: v0, v72 +++++++++++++++++++ [13]
+	 Linear cube 40: v0, v74 -------- [474]
+	 Linear cube 41: v0, v75 -------- [580]
+	 Linear cube 42: v0, v76 -------- [12]
+	 Linear cube 43: v0, v77 +++++++++++++++++++ [169]
+	 Linear cube 44: v0, v78 -------- [4]
+	 Linear cube 45: v0, v79 -------- [10]
+	 EXCLUDE cube 22: v1, v2
+	 Linear cube 46: v1, v3 -------- [36]
+	 Linear cube 47: v1, v4 -------- [90]
+	 EXCLUDE cube 23: v1, v5
+	 Linear cube 48: v1, v6 +++++++++++++++++++ [1]
+	 Linear cube 49: v1, v7 -------- [2]
+	 Linear cube 50: v1, v13 -------- [16]
+	 Linear cube 51: v1, v16 -------- [136]
+	 Linear cube 52: v1, v18 -------- [1418]
+	 Linear cube 53: v1, v31 -------- [128]
+	 EXCLUDE cube 24: v2, v3
+	 Linear cube 54: v2, v4 -------- [182]
+	 EXCLUDE cube 25: v2, v5
+	 EXCLUDE cube 26: v2, v6
+	 EXCLUDE cube 27: v2, v7
+	 EXCLUDE cube 28: v2, v8
+	 Linear cube 55: v2, v9 -------- [2]
+	 Linear cube 56: v2, v10 -------- [2954]
+	 Linear cube 57: v2, v11 -------- [10]
+	 EXCLUDE cube 29: v2, v12
+	 EXCLUDE cube 30: v2, v13
+	 EXCLUDE cube 31: v2, v14
+	 EXCLUDE cube 32: v2, v15
+	 EXCLUDE cube 33: v2, v16
+	 Linear cube 58: v2, v17 -------- [464]
+	 EXCLUDE cube 34: v2, v18
+	 Linear cube 59: v2, v19 -------- [870]
+	 EXCLUDE cube 35: v2, v20
+	 EXCLUDE cube 36: v2, v21
+	 Linear cube 60: v2, v22 -------- [26]
+	 EXCLUDE cube 37: v2, v23
+	 EXCLUDE cube 38: v2, v24
+	 Linear cube 61: v2, v25 +++++++++++++++++++ [331]
+	 EXCLUDE cube 39: v2, v26
+	 Linear cube 62: v2, v27 -------- [18]
+	 EXCLUDE cube 40: v2, v28
+	 EXCLUDE cube 41: v2, v29
+	 EXCLUDE cube 42: v2, v30
+	 EXCLUDE cube 43: v2, v31
+	 EXCLUDE cube 44: v2, v32
+	 Linear cube 63: v2, v34 -------- [166]
+	 EXCLUDE cube 45: v2, v35
+	 Linear cube 64: v2, v36 -------- [216]
+	 EXCLUDE cube 46: v2, v37
+	 Linear cube 65: v2, v38 -------- [192]
+	 Linear cube 66: v2, v39 -------- [2]
+	 Linear cube 67: v2, v40 -------- [110]
+	 EXCLUDE cube 47: v2, v41
+	 Linear cube 68: v2, v42 -------- [2208]
+	 Linear cube 69: v2, v43 -------- [1376]
+	 Linear cube 70: v2, v44 -------- [890]
+	 Linear cube 71: v2, v45 -------- [628]
+	 Linear cube 72: v2, v46 -------- [464]
+	 Linear cube 73: v2, v47 -------- [102]
+	 Linear cube 74: v2, v48 -------- [1820]
+	 EXCLUDE cube 48: v2, v49
+	 EXCLUDE cube 49: v2, v50
+	 EXCLUDE cube 50: v2, v51
+	 Linear cube 75: v2, v52 -------- [216]
+	 Linear cube 76: v2, v53 -------- [24]
+	 Linear cube 77: v2, v54 -------- [90]
+	 Linear cube 78: v2, v55 -------- [206]
+	 Linear cube 79: v2, v56 +++++++++++++++++++ [249]
+	 Linear cube 80: v2, v57 +++++++++++++++++++ [1403]
+	 EXCLUDE cube 51: v2, v58
+	 Linear cube 81: v2, v59 -------- [16]
+	 EXCLUDE cube 52: v2, v61
+	 Linear cube 82: v2, v62 -------- [118]
+	 EXCLUDE cube 53: v2, v63
+	 EXCLUDE cube 54: v2, v64
+	 Linear cube 83: v2, v65 -------- [64]
+	 EXCLUDE cube 55: v2, v66
+	 Linear cube 84: v2, v67 -------- [48]
+	 Linear cube 85: v2, v68 -------- [24]
+	 Linear cube 86: v2, v69 -------- [160]
+	 EXCLUDE cube 56: v2, v71
+	 EXCLUDE cube 57: v2, v72
+	 EXCLUDE cube 58: v2, v73
+	 Linear cube 87: v2, v74 -------- [3278]
+	 EXCLUDE cube 59: v2, v75
+	 Linear cube 88: v2, v76 -------- [262]
+	 EXCLUDE cube 60: v2, v77
+	 Linear cube 89: v2, v78 -------- [80]
+	 Linear cube 90: v2, v79 -------- [80]
+	 EXCLUDE cube 61: v3, v4
+	 EXCLUDE cube 62: v3, v5
+	 EXCLUDE cube 63: v3, v6
+	 Linear cube 91: v3, v7 +++++++++++++++++++ [129]
+	 EXCLUDE cube 64: v3, v8
+	 Linear cube 92: v3, v9 -------- [104]
+	 Linear cube 93: v3, v10 -------- [420]
+	 Linear cube 94: v3, v11 -------- [1874]
+	 EXCLUDE cube 65: v3, v12
+	 EXCLUDE cube 66: v3, v13
+	 Linear cube 95: v3, v14 -------- [286]
+	 Linear cube 96: v3, v15 -------- [436]
+	 EXCLUDE cube 67: v3, v16
+	 Linear cube 97: v3, v18 -------- [2010]
+	 Linear cube 98: v3, v19 -------- [1362]
+	 EXCLUDE cube 68: v3, v20
+	 EXCLUDE cube 69: v3, v21
+	 Linear cube 99: v3, v23 -------- [2]
+	 Linear cube 100: v3, v24 -------- [12]
+	 Linear cube 101: v3, v25 +++++++++++++++++++ [263]
+	 EXCLUDE cube 70: v3, v26
+	 Linear cube 102: v3, v27 -------- [5670]
+	 Linear cube 103: v3, v29 -------- [528]
+	 EXCLUDE cube 71: v3, v30
+	 EXCLUDE cube 72: v3, v31
+	 Linear cube 104: v3, v32 -------- [388]
+	 Linear cube 105: v3, v33 -------- [32]
+	 Linear cube 106: v3, v34 -------- [2]
+	 Linear cube 107: v3, v39 -------- [182]
+	 Linear cube 108: v3, v41 +++++++++++++++++++ [1817]
+	 Linear cube 109: v3, v42 -------- [2236]
+	 EXCLUDE cube 73: v3, v44
+	 Linear cube 110: v3, v45 -------- [130]
+	 Linear cube 111: v3, v46 -------- [564]
+	 Linear cube 112: v3, v48 -------- [158]
+	 Linear cube 113: v3, v49 -------- [224]
+	 Linear cube 114: v3, v51 -------- [10]
+	 Linear cube 115: v3, v54 -------- [190]
+	 Linear cube 116: v3, v55 -------- [182]
+	 Linear cube 117: v3, v56 -------- [664]
+	 Linear cube 118: v3, v57 -------- [2928]
+	 Linear cube 119: v3, v58 -------- [4858]
+	 Linear cube 120: v3, v60 -------- [588]
+	 Linear cube 121: v3, v62 -------- [1190]
+	 Linear cube 122: v3, v63 -------- [14]
+	 Linear cube 123: v3, v66 +++++++++++++++++++ [17]
+	 Linear cube 124: v3, v67 -------- [32]
+	 Linear cube 125: v3, v69 +++++++++++++++++++ [1]
+	 Linear cube 126: v3, v70 -------- [280]
+	 Linear cube 127: v3, v71 -------- [70]
+	 Linear cube 128: v3, v72 -------- [682]
+	 Linear cube 129: v3, v73 -------- [588]
+	 Linear cube 130: v3, v74 -------- [234]
+	 EXCLUDE cube 74: v3, v75
+	 Linear cube 131: v3, v76 -------- [4]
+	 EXCLUDE cube 75: v3, v77
+	 Linear cube 132: v3, v78 -------- [8]
+	 Linear cube 133: v3, v79 -------- [8]
+	 EXCLUDE cube 76: v4, v5
+	 Linear cube 134: v4, v6 -------- [1304]
+	 Linear cube 135: v4, v7 +++++++++++++++++++ [7]
+	 Linear cube 136: v4, v10 -------- [316]
+	 Linear cube 137: v4, v11 -------- [282]
+	 EXCLUDE cube 77: v4, v12
+	 EXCLUDE cube 78: v4, v13
+	 Linear cube 138: v4, v14 -------- [140]
+	 EXCLUDE cube 79: v4, v15
+	 EXCLUDE cube 80: v4, v16
+	 Linear cube 139: v4, v17 -------- [56]
+	 EXCLUDE cube 81: v4, v18
+	 Linear cube 140: v4, v19 -------- [184]
+	 Linear cube 141: v4, v21 -------- [4]
+	 Linear cube 142: v4, v23 -------- [4]
+	 Linear cube 143: v4, v24 -------- [16]
+	 Linear cube 144: v4, v25 -------- [260]
+	 Linear cube 145: v4, v26 -------- [8]
+	 Linear cube 146: v4, v27 -------- [192]
+	 EXCLUDE cube 82: v4, v28
+	 Linear cube 147: v4, v29 -------- [36]
+	 EXCLUDE cube 83: v4, v30
+	 EXCLUDE cube 84: v4, v31
+	 Linear cube 148: v4, v32 -------- [382]
+	 Linear cube 149: v4, v37 -------- [4]
+	 Linear cube 150: v4, v41 -------- [24]
+	 Linear cube 151: v4, v42 -------- [164]
+	 Linear cube 152: v4, v43 -------- [460]
+	 Linear cube 153: v4, v44 -------- [56]
+	 Linear cube 154: v4, v45 -------- [28]
+	 Linear cube 155: v4, v47 -------- [20]
+	 Linear cube 156: v4, v48 -------- [80]
+	 EXCLUDE cube 85: v4, v49
+	 Linear cube 157: v4, v51 -------- [4]
+	 EXCLUDE cube 86: v4, v58
+	 Linear cube 158: v4, v61 -------- [16]
+	 Linear cube 159: v4, v72 +++++++++++++++++++ [63]
+	 Linear cube 160: v4, v73 +++++++++++++++++++ [7]
+	 Linear cube 161: v4, v74 -------- [20]
+	 EXCLUDE cube 87: v4, v75
+	 Linear cube 162: v4, v76 -------- [12]
+	 EXCLUDE cube 88: v4, v77
+	 EXCLUDE cube 89: v5, v6
+	 EXCLUDE cube 90: v5, v7
+	 EXCLUDE cube 91: v5, v8
+	 EXCLUDE cube 92: v5, v9
+	 EXCLUDE cube 93: v5, v10
+	 EXCLUDE cube 94: v5, v11
+	 EXCLUDE cube 95: v5, v12
+	 EXCLUDE cube 96: v5, v13
+	 EXCLUDE cube 97: v5, v14
+	 Linear cube 163: v5, v15 -------- [18148]
+	 EXCLUDE cube 98: v5, v16
+	 EXCLUDE cube 99: v5, v17
+	 EXCLUDE cube 100: v5, v18
+	 EXCLUDE cube 101: v5, v19
+	 EXCLUDE cube 102: v5, v20
+	 EXCLUDE cube 103: v5, v21
+	 EXCLUDE cube 104: v5, v22
+	 EXCLUDE cube 105: v5, v23
+	 EXCLUDE cube 106: v5, v24
+	 EXCLUDE cube 107: v5, v25
+	 EXCLUDE cube 108: v5, v26
+	 EXCLUDE cube 109: v5, v27
+	 EXCLUDE cube 110: v5, v28
+	 EXCLUDE cube 111: v5, v29
+	 EXCLUDE cube 112: v5, v30
+	 EXCLUDE cube 113: v5, v31
+	 EXCLUDE cube 114: v5, v32
+	 EXCLUDE cube 115: v5, v33
+	 EXCLUDE cube 116: v5, v34
+	 EXCLUDE cube 117: v5, v35
+	 EXCLUDE cube 118: v5, v36
+	 Linear cube 164: v5, v37 -------- [14042]
+	 EXCLUDE cube 119: v5, v38
+	 EXCLUDE cube 120: v5, v39
+	 EXCLUDE cube 121: v5, v40
+	 EXCLUDE cube 122: v5, v41
+	 EXCLUDE cube 123: v5, v42
+	 EXCLUDE cube 124: v5, v43
+	 EXCLUDE cube 125: v5, v44
+	 EXCLUDE cube 126: v5, v45
+	 EXCLUDE cube 127: v5, v46
+	 EXCLUDE cube 128: v5, v47
+	 EXCLUDE cube 129: v5, v48
+	 EXCLUDE cube 130: v5, v49
+	 EXCLUDE cube 131: v5, v50
+	 Linear cube 165: v5, v51 -------- [14604]
+	 EXCLUDE cube 132: v5, v52
+	 Linear cube 166: v5, v53 +++++++++++++++++++ [3181]
+	 EXCLUDE cube 133: v5, v54
+	 EXCLUDE cube 134: v5, v55
+	 EXCLUDE cube 135: v5, v56
+	 EXCLUDE cube 136: v5, v57
+	 EXCLUDE cube 137: v5, v58
+	 EXCLUDE cube 138: v5, v59
+	 EXCLUDE cube 139: v5, v60
+	 EXCLUDE cube 140: v5, v61
+	 EXCLUDE cube 141: v5, v62
+	 EXCLUDE cube 142: v5, v63
+	 Linear cube 167: v5, v64 -------- [1450]
+	 EXCLUDE cube 143: v5, v65
+	 EXCLUDE cube 144: v5, v66
+	 EXCLUDE cube 145: v5, v67
+	 EXCLUDE cube 146: v5, v68
+	 EXCLUDE cube 147: v5, v69
+	 EXCLUDE cube 148: v5, v70
+	 EXCLUDE cube 149: v5, v71
+	 EXCLUDE cube 150: v5, v72
+	 EXCLUDE cube 151: v5, v73
+	 EXCLUDE cube 152: v5, v74
+	 EXCLUDE cube 153: v5, v75
+	 EXCLUDE cube 154: v5, v76
+	 Linear cube 168: v5, v77 +++++++++++++++++++ [3569]
+	 EXCLUDE cube 155: v5, v78
+	 EXCLUDE cube 156: v5, v79
+	 Linear cube 169: v6, v7 -------- [142]
+	 Linear cube 170: v6, v10 -------- [8]
+	 EXCLUDE cube 157: v6, v11
+	 EXCLUDE cube 158: v6, v12
+	 Linear cube 171: v6, v13 -------- [146]
+	 EXCLUDE cube 159: v6, v14
+	 EXCLUDE cube 160: v6, v15
+	 EXCLUDE cube 161: v6, v16
+	 EXCLUDE cube 162: v6, v18
+	 Linear cube 172: v6, v21 +++++++++++++++++++ [3]
+	 Linear cube 173: v6, v23 -------- [26]
+	 Linear cube 174: v6, v24 +++++++++++++++++++ [9]
+	 Linear cube 175: v6, v26 -------- [32]
+	 Linear cube 176: v6, v29 -------- [1142]
+	 Linear cube 177: v6, v30 -------- [1154]
+	 Linear cube 178: v6, v31 +++++++++++++++++++ [125]
+	 Linear cube 179: v6, v32 -------- [48]
+	 Linear cube 180: v6, v33 -------- [36]
+	 Linear cube 181: v6, v34 -------- [36]
+	 Linear cube 182: v6, v37 -------- [4]
+	 Linear cube 183: v6, v39 -------- [8]
+	 Linear cube 184: v6, v42 -------- [28]
+	 Linear cube 185: v6, v44 -------- [12]
+	 EXCLUDE cube 163: v6, v45
+	 Linear cube 186: v6, v50 -------- [12]
+	 Linear cube 187: v6, v51 -------- [48]
+	 Linear cube 188: v6, v53 -------- [2]
+	 EXCLUDE cube 164: v6, v58
+	 Linear cube 189: v6, v60 +++++++++++++++++++ [3]
+	 Linear cube 190: v6, v63 -------- [2]
+	 Linear cube 191: v6, v65 -------- [12]
+	 Linear cube 192: v6, v67 +++++++++++++++++++ [17]
+	 EXCLUDE cube 165: v6, v69
+	 Linear cube 193: v6, v74 -------- [14]
+	 Linear cube 194: v6, v75 -------- [32]
+	 Linear cube 195: v6, v77 +++++++++++++++++++ [7]
+	 EXCLUDE cube 166: v7, v8
+	 Linear cube 196: v7, v10 -------- [62]
+	 EXCLUDE cube 167: v7, v12
+	 EXCLUDE cube 168: v7, v13
+	 Linear cube 197: v7, v14 +++++++++++++++++++ [129]
+	 Linear cube 198: v7, v15 +++++++++++++++++++ [665]
+	 EXCLUDE cube 169: v7, v16
+	 Linear cube 199: v7, v18 -------- [854]
+	 Linear cube 200: v7, v19 -------- [26]
+	 Linear cube 201: v7, v20 -------- [2]
+	 Linear cube 202: v7, v22 -------- [6]
+	 EXCLUDE cube 170: v7, v23
+	 EXCLUDE cube 171: v7, v25
+	 EXCLUDE cube 172: v7, v26
+	 Linear cube 203: v7, v27 -------- [6]
+	 Linear cube 204: v7, v28 +++++++++++++++++++ [83]
+	 Linear cube 205: v7, v29 -------- [14]
+	 Linear cube 206: v7, v30 -------- [14]
+	 Linear cube 207: v7, v31 -------- [58]
+	 Linear cube 208: v7, v33 -------- [6]
+	 Linear cube 209: v7, v34 -------- [4]
+	 EXCLUDE cube 173: v7, v38
+	 EXCLUDE cube 174: v7, v40
+	 Linear cube 210: v7, v41 -------- [4]
+	 EXCLUDE cube 175: v7, v42
+	 Linear cube 211: v7, v43 -------- [6]
+	 Linear cube 212: v7, v45 +++++++++++++++++++ [7]
+	 Linear cube 213: v7, v53 -------- [54]
+	 Linear cube 214: v7, v54 -------- [12]
+	 Linear cube 215: v7, v55 -------- [18]
+	 Linear cube 216: v7, v57 -------- [12]
+	 Linear cube 217: v7, v63 -------- [4]
+	 EXCLUDE cube 176: v7, v64
+	 EXCLUDE cube 177: v7, v65
+	 Linear cube 218: v7, v66 -------- [8]
+	 Linear cube 219: v7, v67 +++++++++++++++++++ [1]
+	 Linear cube 220: v7, v68 -------- [10]
+	 Linear cube 221: v7, v70 -------- [4]
+	 EXCLUDE cube 178: v7, v75
+	 EXCLUDE cube 179: v7, v77
+	 EXCLUDE cube 180: v7, v79
+	 Linear cube 222: v8, v9 +++++++++++++++++++ [19]
+	 Linear cube 223: v8, v11 +++++++++++++++++++ [1]
+	 Linear cube 224: v8, v12 -------- [22]
+	 Linear cube 225: v8, v13 -------- [2]
+	 EXCLUDE cube 181: v8, v14
+	 EXCLUDE cube 182: v8, v15
+	 Linear cube 226: v8, v16 +++++++++++++++++++ [127]
+	 Linear cube 227: v8, v18 -------- [994]
+	 EXCLUDE cube 183: v8, v23
+	 EXCLUDE cube 184: v8, v24
+	 Linear cube 228: v8, v25 -------- [16]
+	 Linear cube 229: v8, v27 -------- [8]
+	 Linear cube 230: v8, v28 -------- [2]
+	 Linear cube 231: v8, v31 -------- [100]
+	 Linear cube 232: v8, v34 -------- [20]
+	 EXCLUDE cube 185: v8, v37
+	 Linear cube 233: v8, v42 +++++++++++++++++++ [3]
+	 EXCLUDE cube 186: v8, v45
+	 Linear cube 234: v8, v55 -------- [56]
+	 EXCLUDE cube 187: v8, v58
+	 Linear cube 235: v8, v59 -------- [14]
+	 Linear cube 236: v8, v67 -------- [12]
+	 Linear cube 237: v8, v74 -------- [4]
+	 Linear cube 238: v8, v75 -------- [8]
+	 EXCLUDE cube 188: v8, v76
+	 Linear cube 239: v8, v77 -------- [12]
+	 Linear cube 240: v8, v79 -------- [42]
+	 Linear cube 241: v9, v10 -------- [12]
+	 EXCLUDE cube 189: v9, v12
+	 EXCLUDE cube 190: v9, v13
+	 Linear cube 242: v9, v15 -------- [4]
+	 Linear cube 243: v9, v16 -------- [8]
+	 Linear cube 244: v9, v18 -------- [48]
+	 Linear cube 245: v9, v25 +++++++++++++++++++ [1]
+	 EXCLUDE cube 191: v9, v26
+	 Linear cube 246: v9, v40 +++++++++++++++++++ [1]
+	 Linear cube 247: v9, v41 -------- [2]
+	 Linear cube 248: v9, v42 +++++++++++++++++++ [1]
+	 Linear cube 249: v9, v56 +++++++++++++++++++ [1]
+	 Linear cube 250: v9, v59 +++++++++++++++++++ [1]
+	 Linear cube 251: v9, v60 +++++++++++++++++++ [1]
+	 Linear cube 252: v9, v72 +++++++++++++++++++ [1]
+	 Linear cube 253: v9, v73 +++++++++++++++++++ [1]
+	 Linear cube 254: v9, v75 +++++++++++++++++++ [1]
+	 Linear cube 255: v9, v79 +++++++++++++++++++ [1]
+	 Linear cube 256: v10, v15 -------- [2]
+	 Linear cube 257: v10, v16 -------- [714]
+	 Linear cube 258: v10, v18 -------- [2570]
+	 Linear cube 259: v10, v20 -------- [16]
+	 Linear cube 260: v10, v21 -------- [4]
+	 Linear cube 261: v10, v22 -------- [12]
+	 EXCLUDE cube 192: v10, v23
+	 Linear cube 262: v10, v24 -------- [8]
+	 EXCLUDE cube 193: v10, v29
+	 Linear cube 263: v10, v31 -------- [32]
+	 Linear cube 264: v10, v32 -------- [24]
+	 Linear cube 265: v10, v35 -------- [12]
+	 Linear cube 266: v10, v37 +++++++++++++++++++ [3]
+	 EXCLUDE cube 194: v10, v42
+	 Linear cube 267: v10, v51 -------- [56]
+	 Linear cube 268: v10, v67 +++++++++++++++++++ [1]
+	 Linear cube 269: v10, v75 -------- [2]
+	 Linear cube 270: v10, v76 -------- [12]
+	 Linear cube 271: v10, v77 -------- [42]
+	 EXCLUDE cube 195: v11, v12
+	 EXCLUDE cube 196: v11, v13
+	 Linear cube 272: v11, v15 -------- [62]
+	 Linear cube 273: v11, v16 -------- [62]
+	 Linear cube 274: v11, v18 -------- [1388]
+	 EXCLUDE cube 197: v11, v25
+	 EXCLUDE cube 198: v11, v26
+	 Linear cube 275: v11, v31 -------- [32]
+	 Linear cube 276: v11, v32 -------- [24]
+	 EXCLUDE cube 199: v11, v35
+	 EXCLUDE cube 200: v11, v39
+	 EXCLUDE cube 201: v11, v40
+	 EXCLUDE cube 202: v11, v42
+	 EXCLUDE cube 203: v11, v53
+	 EXCLUDE cube 204: v11, v54
+	 Linear cube 277: v11, v55 +++++++++++++++++++ [3]
+	 Linear cube 278: v11, v56 +++++++++++++++++++ [5]
+	 Linear cube 279: v11, v58 -------- [6]
+	 Linear cube 280: v11, v59 -------- [14]
+	 Linear cube 281: v11, v60 -------- [20]
+	 Linear cube 282: v11, v67 -------- [2]
+	 Linear cube 283: v11, v68 -------- [2]
+	 Linear cube 284: v11, v69 +++++++++++++++++++ [3]
+	 Linear cube 285: v11, v71 -------- [6]
+	 Linear cube 286: v11, v72 -------- [8]
+	 Linear cube 287: v11, v73 -------- [20]
+	 Linear cube 288: v11, v75 -------- [14]
+	 Linear cube 289: v11, v76 -------- [2]
+	 Linear cube 290: v11, v77 -------- [16]
+	 Linear cube 291: v12, v13 -------- [268]
+	 Linear cube 292: v12, v14 +++++++++++++++++++ [5]
+	 Linear cube 293: v12, v15 -------- [14]
+	 EXCLUDE cube 205: v12, v16
+	 EXCLUDE cube 206: v12, v18
+	 EXCLUDE cube 207: v12, v19
+	 EXCLUDE cube 208: v12, v20
+	 EXCLUDE cube 209: v12, v21
+	 EXCLUDE cube 210: v12, v22
+	 EXCLUDE cube 211: v12, v23
+	 EXCLUDE cube 212: v12, v24
+	 Linear cube 294: v12, v29 +++++++++++++++++++ [35]
+	 Linear cube 295: v12, v30 -------- [22]
+	 EXCLUDE cube 213: v12, v31
+	 EXCLUDE cube 214: v12, v32
+	 EXCLUDE cube 215: v12, v33
+	 EXCLUDE cube 216: v12, v34
+	 Linear cube 296: v12, v35 +++++++++++++++++++ [25]
+	 EXCLUDE cube 217: v12, v36
+	 EXCLUDE cube 218: v12, v37
+	 Linear cube 297: v12, v40 -------- [4]
+	 Linear cube 298: v12, v41 +++++++++++++++++++ [365]
+	 Linear cube 299: v12, v42 +++++++++++++++++++ [487]
+	 Linear cube 300: v12, v43 +++++++++++++++++++ [3]
+	 EXCLUDE cube 219: v12, v45
+	 EXCLUDE cube 220: v12, v46
+	 EXCLUDE cube 221: v12, v48
+	 Linear cube 301: v12, v49 +++++++++++++++++++ [37]
+	 Linear cube 302: v12, v50 +++++++++++++++++++ [1]
+	 EXCLUDE cube 222: v12, v51
+	 Linear cube 303: v12, v52 -------- [4]
+	 EXCLUDE cube 223: v12, v53
+	 EXCLUDE cube 224: v12, v54
+	 Linear cube 304: v12, v56 +++++++++++++++++++ [15]
+	 Linear cube 305: v12, v57 -------- [38]
+	 EXCLUDE cube 225: v12, v58
+	 Linear cube 306: v12, v59 -------- [18]
+	 EXCLUDE cube 226: v12, v61
+	 Linear cube 307: v12, v62 +++++++++++++++++++ [73]
+	 EXCLUDE cube 227: v12, v64
+	 EXCLUDE cube 228: v12, v65
+	 EXCLUDE cube 229: v12, v66
+	 Linear cube 308: v12, v67 -------- [8]
+	 Linear cube 309: v12, v71 -------- [18]
+	 Linear cube 310: v12, v74 +++++++++++++++++++ [59]
+	 EXCLUDE cube 230: v12, v75
+	 EXCLUDE cube 231: v12, v76
+	 EXCLUDE cube 232: v12, v77
+	 Linear cube 311: v13, v15 -------- [26]
+	 EXCLUDE cube 233: v13, v16
+	 Linear cube 312: v13, v17 -------- [48]
+	 EXCLUDE cube 234: v13, v18
+	 Linear cube 313: v13, v19 -------- [2]
+	 Linear cube 314: v13, v20 -------- [12]
+	 Linear cube 315: v13, v21 -------- [2]
+	 Linear cube 316: v13, v22 -------- [26]
+	 Linear cube 317: v13, v23 -------- [42]
+	 EXCLUDE cube 235: v13, v24
+	 Linear cube 318: v13, v25 -------- [2]
+	 Linear cube 319: v13, v29 -------- [120]
+	 Linear cube 320: v13, v30 +++++++++++++++++++ [353]
+	 Linear cube 321: v13, v31 +++++++++++++++++++ [2047]
+	 EXCLUDE cube 236: v13, v32
+	 Linear cube 322: v13, v36 -------- [4]
+	 Linear cube 323: v13, v37 -------- [18]
+	 Linear cube 324: v13, v38 -------- [4]
+	 Linear cube 325: v13, v39 -------- [48]
+	 Linear cube 326: v13, v40 +++++++++++++++++++ [33]
+	 Linear cube 327: v13, v41 -------- [408]
+	 Linear cube 328: v13, v42 -------- [420]
+	 Linear cube 329: v13, v43 +++++++++++++++++++ [1]
+	 Linear cube 330: v13, v44 -------- [192]
+	 Linear cube 331: v13, v45 +++++++++++++++++++ [5]
+	 Linear cube 332: v13, v47 -------- [204]
+	 Linear cube 333: v13, v48 -------- [84]
+	 Linear cube 334: v13, v49 -------- [88]
+	 Linear cube 335: v13, v51 +++++++++++++++++++ [3]
+	 Linear cube 336: v13, v53 +++++++++++++++++++ [15]
+	 Linear cube 337: v13, v54 +++++++++++++++++++ [121]
+	 Linear cube 338: v13, v55 -------- [24]
+	 Linear cube 339: v13, v56 -------- [96]
+	 EXCLUDE cube 237: v13, v57
+	 Linear cube 340: v13, v58 -------- [396]
+	 Linear cube 341: v13, v59 -------- [14]
+	 Linear cube 342: v13, v60 -------- [12]
+	 Linear cube 343: v13, v62 -------- [156]
+	 Linear cube 344: v13, v63 -------- [36]
+	 Linear cube 345: v13, v66 -------- [8]
+	 Linear cube 346: v13, v67 -------- [12]
+	 Linear cube 347: v13, v71 -------- [96]
+	 Linear cube 348: v13, v72 -------- [2]
+	 Linear cube 349: v13, v74 -------- [342]
+	 EXCLUDE cube 238: v13, v75
+	 Linear cube 350: v13, v76 -------- [14]
+	 EXCLUDE cube 239: v13, v77
+	 Linear cube 351: v13, v78 -------- [4]
+	 Linear cube 352: v13, v79 -------- [4]
+	 Linear cube 353: v14, v15 +++++++++++++++++++ [5]
+	 Linear cube 354: v14, v16 -------- [18]
+	 Linear cube 355: v14, v18 -------- [54]
+	 EXCLUDE cube 240: v14, v20
+	 Linear cube 356: v14, v23 -------- [20]
+	 EXCLUDE cube 241: v14, v24
+	 Linear cube 357: v14, v29 -------- [2]
+	 Linear cube 358: v14, v31 -------- [2]
+	 Linear cube 359: v14, v33 -------- [6]
+	 Linear cube 360: v14, v34 -------- [6]
+	 EXCLUDE cube 242: v14, v35
+	 Linear cube 361: v14, v42 -------- [30]
+	 Linear cube 362: v14, v47 -------- [6]
+	 Linear cube 363: v14, v49 -------- [12]
+	 EXCLUDE cube 243: v14, v50
+	 EXCLUDE cube 244: v14, v51
+	 Linear cube 364: v14, v57 -------- [14]
+	 Linear cube 365: v14, v58 +++++++++++++++++++ [1]
+	 Linear cube 366: v14, v62 +++++++++++++++++++ [7]
+	 Linear cube 367: v14, v63 +++++++++++++++++++ [7]
+	 Linear cube 368: v14, v64 -------- [16]
+	 Linear cube 369: v14, v65 -------- [4]
+	 Linear cube 370: v14, v66 -------- [28]
+	 EXCLUDE cube 245: v14, v68
+	 EXCLUDE cube 246: v14, v74
+	 EXCLUDE cube 247: v14, v75
+	 EXCLUDE cube 248: v14, v77
+	 EXCLUDE cube 249: v14, v79
+	 Linear cube 371: v15, v16 -------- [134]
+	 Linear cube 372: v15, v18 -------- [158]
+	 Linear cube 373: v15, v20 -------- [88]
+	 Linear cube 374: v15, v21 -------- [16]
+	 Linear cube 375: v15, v22 -------- [40]
+	 Linear cube 376: v15, v23 -------- [204]
+	 Linear cube 377: v15, v24 +++++++++++++++++++ [5]
+	 Linear cube 378: v15, v25 +++++++++++++++++++ [1]
+	 Linear cube 379: v15, v27 -------- [2]
+	 EXCLUDE cube 250: v15, v30
+	 Linear cube 380: v15, v31 -------- [310]
+	 Linear cube 381: v15, v33 -------- [136]
+	 Linear cube 382: v15, v34 -------- [48]
+	 Linear cube 383: v15, v35 -------- [802]
+	 Linear cube 384: v15, v36 -------- [190]
+	 Linear cube 385: v15, v37 -------- [8]
+	 Linear cube 386: v15, v38 +++++++++++++++++++ [3]
+	 Linear cube 387: v15, v41 -------- [8]
+	 Linear cube 388: v15, v42 +++++++++++++++++++ [9]
+	 Linear cube 389: v15, v43 -------- [74]
+	 Linear cube 390: v15, v48 -------- [32]
+	 Linear cube 391: v15, v49 -------- [2]
+	 Linear cube 392: v15, v50 -------- [14]
+	 Linear cube 393: v15, v51 -------- [166]
+	 Linear cube 394: v15, v52 +++++++++++++++++++ [1]
+	 Linear cube 395: v15, v53 -------- [4]
+	 Linear cube 396: v15, v54 -------- [8]
+	 Linear cube 397: v15, v56 -------- [8]
+	 Linear cube 398: v15, v59 -------- [42]
+	 Linear cube 399: v15, v60 -------- [4]
+	 Linear cube 400: v15, v62 -------- [38]
+	 Linear cube 401: v15, v63 -------- [14]
+	 Linear cube 402: v15, v64 -------- [16]
+	 Linear cube 403: v15, v65 -------- [38]
+	 Linear cube 404: v15, v66 -------- [36]
+	 Linear cube 405: v15, v67 -------- [44]
+	 Linear cube 406: v15, v70 -------- [8]
+	 Linear cube 407: v15, v71 -------- [6]
+	 Linear cube 408: v15, v72 -------- [18]
+	 Linear cube 409: v15, v75 +++++++++++++++++++ [3]
+	 Linear cube 410: v15, v76 +++++++++++++++++++ [3]
+	 EXCLUDE cube 251: v15, v77
+	 Linear cube 411: v16, v17 -------- [180]
+	 Linear cube 412: v16, v19 -------- [878]
+	 Linear cube 413: v16, v20 +++++++++++++++++++ [1]
+	 Linear cube 414: v16, v21 +++++++++++++++++++ [127]
+	 EXCLUDE cube 252: v16, v22
+	 Linear cube 415: v16, v23 -------- [468]
+	 Linear cube 416: v16, v24 -------- [1024]
+	 Linear cube 417: v16, v25 -------- [480]
+	 EXCLUDE cube 253: v16, v26
+	 Linear cube 418: v16, v27 -------- [874]
+	 EXCLUDE cube 254: v16, v29
+	 EXCLUDE cube 255: v16, v30
+	 EXCLUDE cube 256: v16, v31
+	 EXCLUDE cube 257: v16, v32
+	 Linear cube 419: v16, v33 -------- [4]
+	 Linear cube 420: v16, v34 -------- [90]
+	 Linear cube 421: v16, v35 -------- [112]
+	 Linear cube 422: v16, v36 +++++++++++++++++++ [1]
+	 Linear cube 423: v16, v37 -------- [144]
+	 Linear cube 424: v16, v38 -------- [44]
+	 Linear cube 425: v16, v39 -------- [8]
+	 EXCLUDE cube 258: v16, v40
+	 EXCLUDE cube 259: v16, v41
+	 EXCLUDE cube 260: v16, v42
+	 Linear cube 426: v16, v43 +++++++++++++++++++ [357]
+	 EXCLUDE cube 261: v16, v44
+	 EXCLUDE cube 262: v16, v45
+	 Linear cube 427: v16, v46 -------- [364]
+	 Linear cube 428: v16, v47 -------- [56]
+	 EXCLUDE cube 263: v16, v48
+	 EXCLUDE cube 264: v16, v49
+	 Linear cube 429: v16, v51 -------- [124]
+	 Linear cube 430: v16, v52 -------- [8]
+	 Linear cube 431: v16, v53 -------- [42]
+	 EXCLUDE cube 265: v16, v54
+	 EXCLUDE cube 266: v16, v55
+	 EXCLUDE cube 267: v16, v56
+	 Linear cube 432: v16, v57 -------- [364]
+	 EXCLUDE cube 268: v16, v58
+	 Linear cube 433: v16, v59 -------- [28]
+	 Linear cube 434: v16, v61 -------- [404]
+	 Linear cube 435: v16, v62 -------- [332]
+	 Linear cube 436: v16, v63 -------- [20]
+	 Linear cube 437: v16, v64 -------- [16]
+	 Linear cube 438: v16, v65 -------- [84]
+	 Linear cube 439: v16, v66 -------- [8]
+	 Linear cube 440: v16, v67 -------- [144]
+	 Linear cube 441: v16, v68 -------- [10]
+	 Linear cube 442: v16, v69 -------- [232]
+	 EXCLUDE cube 269: v16, v70
+	 Linear cube 443: v16, v71 -------- [448]
+	 EXCLUDE cube 270: v16, v72
+	 Linear cube 444: v16, v73 -------- [104]
+	 Linear cube 445: v16, v74 -------- [432]
+	 Linear cube 446: v16, v75 -------- [2410]
+	 Linear cube 447: v16, v76 -------- [34]
+	 EXCLUDE cube 271: v16, v77
+	 Linear cube 448: v16, v78 -------- [92]
+	 Linear cube 449: v16, v79 -------- [116]
+	 Linear cube 450: v17, v31 -------- [140]
+	 Linear cube 451: v18, v19 -------- [3058]
+	 Linear cube 452: v18, v20 -------- [10]
+	 Linear cube 453: v18, v21 -------- [140]
+	 Linear cube 454: v18, v22 -------- [20]
+	 Linear cube 455: v18, v23 -------- [1908]
+	 Linear cube 456: v18, v24 -------- [3144]
+	 EXCLUDE cube 272: v18, v25
+	 Linear cube 457: v18, v26 -------- [604]
+	 Linear cube 458: v18, v27 -------- [4576]
+	 Linear cube 459: v18, v28 -------- [226]
+	 EXCLUDE cube 273: v18, v29
+	 EXCLUDE cube 274: v18, v30
+	 EXCLUDE cube 275: v18, v31
+	 EXCLUDE cube 276: v18, v32
+	 Linear cube 460: v18, v34 -------- [544]
+	 Linear cube 461: v18, v35 -------- [264]
+	 Linear cube 462: v18, v36 -------- [60]
+	 Linear cube 463: v18, v37 -------- [888]
+	 Linear cube 464: v18, v38 -------- [1540]
+	 Linear cube 465: v18, v39 -------- [278]
+	 Linear cube 466: v18, v40 -------- [1492]
+	 EXCLUDE cube 277: v18, v41
+	 Linear cube 467: v18, v42 -------- [2554]
+	 Linear cube 468: v18, v43 -------- [496]
+	 Linear cube 469: v18, v44 -------- [2378]
+	 Linear cube 470: v18, v45 -------- [480]
+	 EXCLUDE cube 278: v18, v46
+	 EXCLUDE cube 279: v18, v47
+	 EXCLUDE cube 280: v18, v48
+	 EXCLUDE cube 281: v18, v49
+	 Linear cube 471: v18, v50 -------- [24]
+	 Linear cube 472: v18, v51 -------- [952]
+	 Linear cube 473: v18, v52 +++++++++++++++++++ [229]
+	 Linear cube 474: v18, v53 +++++++++++++++++++ [153]
+	 Linear cube 475: v18, v54 -------- [386]
+	 Linear cube 476: v18, v55 -------- [298]
+	 Linear cube 477: v18, v56 -------- [834]
+	 EXCLUDE cube 282: v18, v57
+	 EXCLUDE cube 283: v18, v58
+	 Linear cube 478: v18, v59 -------- [7276]
+	 Linear cube 479: v18, v60 -------- [14]
+	 EXCLUDE cube 284: v18, v61
+	 EXCLUDE cube 285: v18, v62
+	 EXCLUDE cube 286: v18, v63
+	 Linear cube 480: v18, v64 -------- [184]
+	 Linear cube 481: v18, v65 -------- [296]
+	 Linear cube 482: v18, v66 -------- [82]
+	 Linear cube 483: v18, v67 -------- [520]
+	 Linear cube 484: v18, v68 -------- [446]
+	 Linear cube 485: v18, v69 -------- [330]
+	 EXCLUDE cube 287: v18, v70
+	 Linear cube 486: v18, v71 -------- [2134]
+	 Linear cube 487: v18, v72 -------- [3802]
+	 Linear cube 488: v18, v73 -------- [706]
+	 Linear cube 489: v18, v74 +++++++++++++++++++ [1227]
+	 EXCLUDE cube 288: v18, v75
+	 Linear cube 490: v18, v76 -------- [718]
+	 Linear cube 491: v18, v77 -------- [26]
+	 Linear cube 492: v18, v78 -------- [352]
+	 Linear cube 493: v18, v79 -------- [352]
+	 Linear cube 494: v19, v29 -------- [36]
+	 Linear cube 495: v19, v30 -------- [36]
+	 Linear cube 496: v19, v31 -------- [30]
+	 Linear cube 497: v19, v42 -------- [16]
+	 Linear cube 498: v19, v58 -------- [16]
+	 Linear cube 499: v19, v77 +++++++++++++++++++ [1]
+	 Linear cube 500: v20, v28 -------- [14]
+	 Linear cube 501: v20, v32 -------- [48]
+	 Linear cube 502: v20, v40 -------- [8]
+	 Linear cube 503: v20, v42 -------- [14]
+	 EXCLUDE cube 289: v20, v45
+	 EXCLUDE cube 290: v20, v58
+	 Linear cube 504: v20, v67 -------- [14]
+	 Linear cube 505: v20, v75 -------- [24]
+	 EXCLUDE cube 291: v20, v77
+	 Linear cube 506: v21, v31 -------- [72]
+	 Linear cube 507: v21, v35 -------- [8]
+	 Linear cube 508: v21, v42 +++++++++++++++++++ [3]
+	 EXCLUDE cube 292: v21, v45
+	 Linear cube 509: v21, v49 -------- [4]
+	 Linear cube 510: v21, v62 -------- [4]
+	 Linear cube 511: v21, v67 -------- [4]
+	 EXCLUDE cube 293: v22, v23
+	 EXCLUDE cube 294: v22, v32
+	 Linear cube 512: v22, v42 -------- [4]
+	 Linear cube 513: v22, v45 +++++++++++++++++++ [5]
+	 EXCLUDE cube 295: v22, v75
+	 EXCLUDE cube 296: v22, v76
+	 Linear cube 514: v22, v77 -------- [4]
+	 EXCLUDE cube 297: v22, v79
+	 EXCLUDE cube 298: v23, v25
+	 EXCLUDE cube 299: v23, v27
+	 EXCLUDE cube 300: v23, v28
+	 Linear cube 515: v23, v29 -------- [4]
+	 Linear cube 516: v23, v31 -------- [124]
+	 EXCLUDE cube 301: v23, v32
+	 Linear cube 517: v23, v34 -------- [2]
+	 Linear cube 518: v23, v41 +++++++++++++++++++ [1]
+	 Linear cube 519: v23, v48 -------- [36]
+	 Linear cube 520: v23, v50 -------- [24]
+	 Linear cube 521: v23, v51 -------- [24]
+	 Linear cube 522: v23, v63 -------- [8]
+	 Linear cube 523: v23, v64 -------- [8]
+	 Linear cube 524: v23, v66 +++++++++++++++++++ [13]
+	 Linear cube 525: v23, v71 -------- [4]
+	 Linear cube 526: v23, v72 -------- [4]
+	 EXCLUDE cube 302: v23, v75
+	 EXCLUDE cube 303: v23, v76
+	 EXCLUDE cube 304: v23, v77
+	 EXCLUDE cube 305: v23, v79
+	 EXCLUDE cube 306: v24, v25
+	 EXCLUDE cube 307: v24, v26
+	 Linear cube 527: v24, v30 -------- [24]
+	 Linear cube 528: v24, v31 -------- [172]
+	 EXCLUDE cube 308: v24, v32
+	 Linear cube 529: v24, v35 -------- [4]
+	 Linear cube 530: v24, v40 +++++++++++++++++++ [5]
+	 Linear cube 531: v24, v41 +++++++++++++++++++ [1]
+	 Linear cube 532: v24, v42 +++++++++++++++++++ [3]
+	 Linear cube 533: v24, v44 -------- [24]
+	 Linear cube 534: v24, v48 -------- [84]
+	 Linear cube 535: v24, v49 -------- [4]
+	 Linear cube 536: v24, v56 +++++++++++++++++++ [1]
+	 Linear cube 537: v24, v59 +++++++++++++++++++ [1]
+	 Linear cube 538: v24, v60 +++++++++++++++++++ [1]
+	 Linear cube 539: v24, v67 +++++++++++++++++++ [1]
+	 Linear cube 540: v24, v72 +++++++++++++++++++ [9]
+	 Linear cube 541: v24, v73 +++++++++++++++++++ [1]
+	 Linear cube 542: v24, v75 +++++++++++++++++++ [1]
+	 Linear cube 543: v24, v77 -------- [16]
+	 Linear cube 544: v24, v79 -------- [6]
+	 Linear cube 545: v25, v30 +++++++++++++++++++ [1]
+	 Linear cube 546: v25, v31 +++++++++++++++++++ [487]
+	 Linear cube 547: v25, v32 -------- [30]
+	 Linear cube 548: v25, v43 +++++++++++++++++++ [1]
+	 Linear cube 549: v25, v45 +++++++++++++++++++ [1]
+	 EXCLUDE cube 309: v25, v48
+	 Linear cube 550: v25, v51 -------- [2]
+	 Linear cube 551: v25, v58 -------- [180]
+	 EXCLUDE cube 310: v25, v75
+	 Linear cube 552: v26, v29 -------- [96]
+	 Linear cube 553: v26, v30 -------- [96]
+	 Linear cube 554: v26, v31 -------- [136]
+	 EXCLUDE cube 311: v26, v32
+	 Linear cube 555: v26, v51 +++++++++++++++++++ [1]
+	 Linear cube 556: v26, v53 +++++++++++++++++++ [1]
+	 Linear cube 557: v26, v54 +++++++++++++++++++ [1]
+	 Linear cube 558: v26, v74 -------- [8]
+	 EXCLUDE cube 312: v26, v75
+	 EXCLUDE cube 313: v26, v77
+	 Linear cube 559: v27, v30 +++++++++++++++++++ [197]
+	 Linear cube 560: v27, v31 +++++++++++++++++++ [775]
+	 Linear cube 561: v27, v42 -------- [96]
+	 Linear cube 562: v27, v43 +++++++++++++++++++ [1]
+	 Linear cube 563: v27, v45 +++++++++++++++++++ [1]
+	 Linear cube 564: v27, v48 -------- [60]
+	 Linear cube 565: v27, v53 -------- [2]
+	 Linear cube 566: v27, v58 -------- [6]
+	 Linear cube 567: v27, v72 -------- [24]
+	 Linear cube 568: v27, v77 -------- [2]
+	 EXCLUDE cube 314: v28, v53
+	 Linear cube 569: v28, v77 -------- [34]
+	 Linear cube 570: v29, v31 -------- [48]
+	 Linear cube 571: v29, v32 -------- [940]
+	 Linear cube 572: v29, v37 -------- [4]
+	 Linear cube 573: v29, v42 -------- [60]
+	 Linear cube 574: v29, v43 -------- [4]
+	 Linear cube 575: v29, v47 -------- [12]
+	 Linear cube 576: v29, v49 -------- [458]
+	 Linear cube 577: v29, v56 -------- [48]
+	 Linear cube 578: v29, v58 -------- [340]
+	 Linear cube 579: v29, v61 -------- [2]
+	 Linear cube 580: v29, v62 -------- [12]
+	 Linear cube 581: v29, v63 -------- [52]
+	 Linear cube 582: v29, v70 -------- [80]
+	 Linear cube 583: v29, v71 -------- [16]
+	 Linear cube 584: v29, v72 -------- [372]
+	 EXCLUDE cube 315: v29, v75
+	 Linear cube 585: v29, v76 -------- [16]
+	 Linear cube 586: v30, v31 -------- [252]
+	 Linear cube 587: v30, v32 -------- [976]
+	 Linear cube 588: v30, v41 -------- [16]
+	 Linear cube 589: v30, v42 -------- [220]
+	 Linear cube 590: v30, v44 -------- [12]
+	 Linear cube 591: v30, v45 -------- [4]
+	 Linear cube 592: v30, v47 -------- [12]
+	 Linear cube 593: v30, v48 -------- [20]
+	 Linear cube 594: v30, v49 -------- [458]
+	 Linear cube 595: v30, v56 -------- [48]
+	 Linear cube 596: v30, v58 -------- [340]
+	 Linear cube 597: v30, v61 -------- [2]
+	 Linear cube 598: v30, v62 -------- [12]
+	 Linear cube 599: v30, v63 -------- [52]
+	 Linear cube 600: v30, v70 -------- [80]
+	 Linear cube 601: v30, v71 -------- [16]
+	 Linear cube 602: v30, v72 -------- [400]
+	 EXCLUDE cube 316: v30, v75
+	 Linear cube 603: v30, v76 -------- [20]
+	 Linear cube 604: v30, v77 +++++++++++++++++++ [3]
+	 EXCLUDE cube 317: v31, v32
+	 Linear cube 605: v31, v34 -------- [20]
+	 Linear cube 606: v31, v35 -------- [20]
+	 Linear cube 607: v31, v38 -------- [44]
+	 Linear cube 608: v31, v39 -------- [8]
+	 Linear cube 609: v31, v40 -------- [26]
+	 Linear cube 610: v31, v41 -------- [514]
+	 Linear cube 611: v31, v42 +++++++++++++++++++ [31]
+	 EXCLUDE cube 318: v31, v43
+	 Linear cube 612: v31, v44 -------- [212]
+	 Linear cube 613: v31, v45 -------- [8]
+	 Linear cube 614: v31, v46 -------- [1172]
+	 EXCLUDE cube 319: v31, v48
+	 Linear cube 615: v31, v49 -------- [24]
+	 Linear cube 616: v31, v51 -------- [8]
+	 Linear cube 617: v31, v52 -------- [8]
+	 Linear cube 618: v31, v54 -------- [16]
+	 Linear cube 619: v31, v55 -------- [16]
+	 Linear cube 620: v31, v56 -------- [46]
+	 Linear cube 621: v31, v57 -------- [12]
+	 Linear cube 622: v31, v58 -------- [3666]
+	 Linear cube 623: v31, v59 -------- [4]
+	 Linear cube 624: v31, v61 -------- [356]
+	 Linear cube 625: v31, v62 -------- [84]
+	 Linear cube 626: v31, v66 -------- [8]
+	 Linear cube 627: v31, v67 -------- [116]
+	 Linear cube 628: v31, v70 -------- [26]
+	 Linear cube 629: v31, v71 -------- [72]
+	 Linear cube 630: v31, v72 -------- [636]
+	 Linear cube 631: v31, v74 -------- [2]
+	 Linear cube 632: v31, v75 -------- [378]
+	 Linear cube 633: v31, v77 -------- [50]
+	 Linear cube 634: v31, v78 -------- [12]
+	 Linear cube 635: v31, v79 -------- [12]
+	 EXCLUDE cube 320: v32, v37
+	 Linear cube 636: v32, v40 -------- [48]
+	 EXCLUDE cube 321: v32, v41
+	 Linear cube 637: v32, v42 +++++++++++++++++++ [29]
+	 Linear cube 638: v32, v44 -------- [24]
+	 Linear cube 639: v32, v48 -------- [62]
+	 Linear cube 640: v32, v49 -------- [36]
+	 Linear cube 641: v32, v55 +++++++++++++++++++ [5]
+	 Linear cube 642: v32, v56 -------- [12]
+	 Linear cube 643: v32, v57 -------- [8]
+	 Linear cube 644: v32, v58 -------- [16]
+	 Linear cube 645: v32, v69 -------- [12]
+	 Linear cube 646: v33, v42 -------- [4]
+	 Linear cube 647: v33, v75 -------- [4]
+	 Linear cube 648: v34, v42 -------- [12]
+	 Linear cube 649: v34, v75 -------- [4]
+	 Linear cube 650: v35, v42 -------- [38]
+	 Linear cube 651: v35, v74 -------- [8]
+	 Linear cube 652: v35, v75 -------- [168]
+	 Linear cube 653: v35, v77 -------- [2]
+	 Linear cube 654: v36, v77 +++++++++++++++++++ [1]
+	 Linear cube 655: v37, v77 +++++++++++++++++++ [9]
+	 Linear cube 656: v38, v48 -------- [4]
+	 EXCLUDE cube 322: v39, v77
+	 EXCLUDE cube 323: v40, v42
+	 Linear cube 657: v40, v44 -------- [2]
+	 Linear cube 658: v40, v59 -------- [2]
+	 Linear cube 659: v41, v42 -------- [2]
+	 Linear cube 660: v41, v44 -------- [16]
+	 Linear cube 661: v41, v48 -------- [4]
+	 Linear cube 662: v41, v59 -------- [4]
+	 Linear cube 663: v41, v67 -------- [8]
+	 Linear cube 664: v41, v74 +++++++++++++++++++ [3]
+	 Linear cube 665: v41, v75 -------- [16]
+	 EXCLUDE cube 324: v41, v77
+	 Linear cube 666: v42, v47 -------- [4]
+	 Linear cube 667: v42, v50 -------- [38]
+	 Linear cube 668: v42, v53 -------- [8]
+	 Linear cube 669: v42, v54 -------- [8]
+	 Linear cube 670: v42, v55 -------- [88]
+	 Linear cube 671: v42, v58 -------- [76]
+	 Linear cube 672: v42, v64 -------- [18]
+	 Linear cube 673: v42, v65 -------- [18]
+	 Linear cube 674: v42, v75 -------- [72]
+	 Linear cube 675: v42, v77 -------- [8]
+	 Linear cube 676: v44, v48 -------- [12]
+	 Linear cube 677: v44, v58 -------- [4]
+	 EXCLUDE cube 325: v45, v66
+	 EXCLUDE cube 326: v45, v71
+	 EXCLUDE cube 327: v45, v72
+	 Linear cube 678: v45, v75 -------- [16]
+	 Linear cube 679: v45, v76 -------- [4]
+	 Linear cube 680: v46, v58 -------- [54]
+	 Linear cube 681: v46, v75 -------- [12]
+	 Linear cube 682: v47, v75 -------- [4]
+	 EXCLUDE cube 328: v47, v77
+	 Linear cube 683: v48, v54 -------- [4]
+	 Linear cube 684: v48, v55 -------- [4]
+	 Linear cube 685: v48, v58 -------- [252]
+	 Linear cube 686: v48, v61 -------- [140]
+	 Linear cube 687: v48, v63 -------- [24]
+	 Linear cube 688: v48, v72 -------- [32]
+	 Linear cube 689: v48, v75 -------- [1436]
+	 Linear cube 690: v48, v77 -------- [2]
+	 Linear cube 691: v49, v58 -------- [12]
+	 Linear cube 692: v49, v68 -------- [4]
+	 Linear cube 693: v49, v75 -------- [8]
+	 Linear cube 694: v50, v53 -------- [6]
+	 Linear cube 695: v50, v74 -------- [8]
+	 Linear cube 696: v50, v75 -------- [132]
+	 Linear cube 697: v51, v77 -------- [6]
+	 Linear cube 698: v53, v55 -------- [12]
+	 Linear cube 699: v53, v62 +++++++++++++++++++ [1]
+	 Linear cube 700: v53, v63 -------- [6]
+	 Linear cube 701: v53, v69 -------- [12]
+	 Linear cube 702: v53, v77 +++++++++++++++++++ [1]
+	 Linear cube 703: v54, v55 -------- [12]
+	 Linear cube 704: v54, v69 -------- [12]
+	 Linear cube 705: v55, v67 -------- [12]
+	 Linear cube 706: v55, v75 -------- [8]
+	 Linear cube 707: v58, v74 -------- [240]
+	 Linear cube 708: v58, v75 -------- [30]
+	 Linear cube 709: v58, v77 +++++++++++++++++++ [5]
+	 Linear cube 710: v59, v75 -------- [28]
+	 Linear cube 711: v60, v77 -------- [2]
+	 Linear cube 712: v61, v74 +++++++++++++++++++ [1]
+	 Linear cube 713: v61, v77 -------- [2]
+	 Linear cube 714: v62, v75 -------- [10]
+	 Linear cube 715: v63, v75 -------- [10]
+	 Linear cube 716: v64, v75 -------- [32]
+	 Linear cube 717: v65, v75 -------- [8]
+	 Linear cube 718: v66, v75 -------- [56]
+	 Linear cube 719: v67, v75 -------- [84]
+	 Linear cube 720: v67, v77 -------- [6]
+	 Linear cube 721: v69, v75 +++++++++++++++++++ [71]
+	 Linear cube 722: v72, v75 -------- [28]
+	 Linear cube 723: v73, v75 -------- [4]
+	 Linear cube 724: v74, v75 -------- [46]
+	 EXCLUDE cube 329: v75, v77
+	 EXCLUDE cube 330: v76, v77
+
+
+---------------------------------------------
+Summary:
+	 All possible: 3160
+
+	 Not appear: 2105
+
+	 Linear ALL: 724
+	 Linear odd: 134
+	 Excluded: 331
+
