@@ -1,0 +1,304 @@
+
+
+#define IV_SIZE 128
+#define KEY_SIZE 128
+
+
+#define ROUND_LIMIT 900
+#define STATE_SIZE 288
+
+
+#define ALL_STATE_SIZE (STATE_SIZE + KEY_SIZE + IV_SIZE)
+
+#define KEY_OFFSET (STATE_SIZE)
+#define IV_OFFSET (STATE_SIZE + KEY_SIZE)
+
+#define SOLUTION_SIZE (KEY_SIZE + IV_SIZE)
+
+
+#define FIRST_EXPAND 256
+
+#define LAST_WORD_NUM 17
+
+
+#define SEARCH_STAGE_1_NODE 1000
+#define SEARCH_STAGE_1_OBJ 8
+
+#define SEARCH_STAGE_2_NODE 10000
+#define SEARCH_STAGE_2_OBJ 4
+
+#define SEARCH_STAGE_3_NODE 3000000
+#define SEARCH_STAGE_3_OBJ 2
+
+#define SEARCH_NODE_LIMIT 5000000
+
+
+#define RETRIEVE_STAGE_1_NODE 1000
+#define RETRIEVE_STAGE_1_OBJ 8
+
+#define RETRIEVE_STAGE_2_NODE 10000
+#define RETRIEVE_STAGE_2_OBJ 4
+
+#define RETRIEVE_STAGE_3_NODE 3000000
+#define RETRIEVE_STAGE_3_OBJ 2
+
+#define RETRIEVE_NODE_LIMIT 5000000
+
+
+
+
+
+typedef vector<bitset<ALL_STATE_SIZE>> poly_t;
+typedef bitset<ALL_STATE_SIZE> mon_t;
+typedef bitset<SOLUTION_SIZE> sol_t;
+
+
+struct cmp_all {
+    bool operator()(const mon_t & a, const mon_t & b ) const {
+        for (wind_t i = 0; i < ALL_STATE_SIZE; i++)
+            if (a[i] > b[i]) return true;
+            else if (a[i] < b[i]) return false;
+        return false; 
+    }
+};
+
+
+struct cmp_sol {
+    bool operator()(const sol_t &a, const sol_t &b) const {
+        for (wind_t i = 0; i < SOLUTION_SIZE; i++ )
+            if (a[i] < b[i]) return true;
+            else if (a[i] > b[i]) return false;
+        return false; 
+    }
+};
+
+typedef map<sol_t, wind_t, cmp_sol> map_t;
+
+
+// a = b or c
+#define MODEL_OR(A, B, C)\
+{\
+    model.addConstr((B) <= (A));\
+    model.addConstr((C) <= (A));\
+    model.addConstr((B) + (C) >= (A));\
+}
+
+
+
+#define INIT_SETTING() \
+    GRBLinExpr key_deg = 0; \
+    vector<GRBVar> x(KEY_SIZE); \
+    for (wind_t i = 0; i < KEY_SIZE; i++) { \
+        x[i] = model.addVar(0, 1, 0, GRB_BINARY); \
+        if (p_in->keys[i] != S_NOTSURE) { \
+            model.addConstr(x[i] == p_in->keys[i]); \
+        } \
+        key_deg += x[i]; \
+    } \
+    GRBLinExpr cube_deg = 0; \
+    vector<GRBVar> v(IV_SIZE); \
+    for (wind_t i = 0; i < IV_SIZE; i++) { \
+        v[i] = model.addVar(0, 1, 0, GRB_BINARY); \
+        if (p_in->cubes[i] != S_NOTSURE) { \
+            model.addConstr(v[i] == p_in->cubes[i]); \
+        } \
+        cube_deg += v[i]; \
+    } \
+    for (wind_t i = 0; i < 93; i++) { \
+        MODEL_OR(x[i], S[KEY_OFFSET + KEY_SIZE - 1 - i], S[i]) \
+    } \
+    for (wind_t i = 93; i < KEY_SIZE; i++) { \
+        model.addConstr(x[i] == S[KEY_OFFSET + KEY_SIZE - 1 - i]); \
+    } \
+    for (wind_t i = 0; i < IV_SIZE; i++) { \
+        MODEL_OR(v[i], S[IV_OFFSET + IV_SIZE - 1 - i], S[i + 93]) \
+    } \
+    model.addConstr(S[STATE_SIZE - 1] == 0);
+
+
+
+
+
+
+
+
+void triviumCore(GRBModel & model, vector<GRBVar> &x, wind_t i1, wind_t i2, wind_t i3, wind_t i4, wind_t i5) {
+
+    GRBVar y1 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar y2 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar y3 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar y4 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar y5 = model.addVar(0, 1, 0, GRB_BINARY);
+
+    GRBVar z1 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar z2 = model.addVar(0, 1, 0, GRB_BINARY);
+
+    // z3 and z4 are not needed, since z3 = z4 = a
+    GRBVar a = model.addVar(0, 1, 0, GRB_BINARY);
+
+    //copy
+    model.addConstr(y1 <= x[i1]);
+    model.addConstr(z1 <= x[i1]);
+    model.addConstr(y1 + z1 >= x[i1]);
+
+    //copy
+    model.addConstr(y2 <= x[i2]);
+    model.addConstr(z2 <= x[i2]);
+    model.addConstr(y2 + z2 >= x[i2]);
+
+    //copy
+    model.addConstr(y3 <= x[i3]);
+    model.addConstr(a <= x[i3]);
+    model.addConstr(y3 + a >= x[i3]);
+    
+    //copy
+    model.addConstr(y4 <= x[i4]);
+    model.addConstr(a <= x[i4]);
+    model.addConstr(y4 + a >= x[i4]);
+    //XOR
+    model.addConstr(y5 == x[i5] + a + z1 + z2);
+
+    x[i1] = y1;
+    x[i2] = y2;
+    x[i3] = y3;
+    x[i4] = y4;
+    x[i5] = y5;
+}
+
+
+
+
+
+
+void round_update(GRBModel &model, vector<GRBVar> &works, wind_t r) {
+
+    //KEY
+    GRBVar t4 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar K_0 = model.addVar(0, 1, 0, GRB_BINARY);
+
+    MODEL_OR(works[KEY_OFFSET + 0], t4, K_0)
+
+    works[KEY_OFFSET + 0] = K_0;
+
+    // IV
+    GRBVar t5 = model.addVar(0, 1, 0, GRB_BINARY);
+    GRBVar IV_0 = model.addVar(0, 1, 0, GRB_BINARY);
+
+    MODEL_OR(works[IV_OFFSET + 0], t5, IV_0)
+
+    works[IV_OFFSET + 0] = IV_0;
+
+
+    triviumCore(model, works, 65, 170, 90, 91, 92);
+
+    GRBVar t1 = model.addVar(0, 1, 0, GRB_BINARY);
+    model.addConstr(t1 == works[92] + IV_0);
+    works[92] = t1;
+
+    triviumCore(model, works, 161, 263, 174, 175, 176);
+
+    triviumCore(model, works, 242, 68, 285, 286, 287);
+
+    GRBVar t3 = model.addVar(0, 1, 0, GRB_BINARY);
+    model.addConstr(t3 == works[287] + K_0);
+    works[287] = t3;
+
+
+    // rotation
+    vector<GRBVar> temp = works;
+    for (wind_t i = 0; i < STATE_SIZE; i++) {
+        works[(i + 1) % STATE_SIZE] = temp[i];
+    }
+
+
+    for (wind_t i = 0; i < KEY_SIZE - 1; i++) {
+        works[KEY_OFFSET + i] = works[KEY_OFFSET + i + 1];
+    }
+
+    works[KEY_OFFSET + KEY_SIZE - 1] = t4;
+
+    for (wind_t i = 0; i < IV_SIZE - 1; i++) {
+        works[IV_OFFSET + i] = works[IV_OFFSET + i + 1];
+    }
+
+    works[IV_OFFSET + IV_SIZE - 1] = t5;
+}
+
+
+
+
+
+void expand_polynomial_first(poly_t &term) {
+
+    GRBEnv env = GRBEnv();
+    env.set(GRB_IntParam_LogToConsole, 0);
+    env.set(GRB_IntParam_Threads, GUROBI_NUM);
+    env.set(GRB_IntParam_PoolSearchMode, 2);
+    env.set(GRB_IntParam_MIPFocus, 3);
+    env.set(GRB_IntParam_PoolSolutions, MAX_SOLNUM);
+    GRBModel model = GRBModel(env);
+
+
+    // S = s(288) + key(128) + iv(128)
+    vector<GRBVar> S(ALL_STATE_SIZE);
+    for (wind_t i = 0; i < ALL_STATE_SIZE; i++) {
+        S[i] = model.addVar(0, 1, 0, GRB_BINARY);
+    }
+
+    // propagate the monomials
+    vector<GRBVar> works = S;
+    for (wind_t r = 0; r < FIRST_EXPAND; r++) {
+        round_update(model, works, r);
+    }
+
+    // Output function
+    GRBLinExpr nk = 0;
+    for (wind_t i = 0; i < ALL_STATE_SIZE; i++) {
+        if ((i == 65) || (i == 92) || (i == 161) || (i == 176) || (i == 242) || (i == 287) || (i == KEY_OFFSET + 0)) {
+            nk += works[i];
+        } else {
+            model.addConstr(works[i] == 0);
+        }
+    }
+    model.addConstr(nk == 1);
+
+    GRBLinExpr obj = 0;
+    for (wind_t i = 0; i < ALL_STATE_SIZE; i++) {
+        obj += S[i];
+    }
+    model.setObjective(obj, GRB_MAXIMIZE);
+
+    model.optimize();
+
+    map<mon_t, wind_t, cmp_all> counterMap; 
+    if(model.get(GRB_IntAttr_Status) == GRB_OPTIMAL) {
+        double time = model.get(GRB_DoubleAttr_Runtime);        
+        wind_t solCount = model.get(GRB_IntAttr_SolCount);
+        mon_t start;
+        for (wind_t i = 0; i < solCount; i++) {
+            model.set(GRB_IntParam_SolutionNumber, i);
+            for (wind_t j = 0; j < ALL_STATE_SIZE; j++ ) {
+                if (round(S[j].get(GRB_DoubleAttr_Xn)) == 1) {
+                    start[j] = 1;
+                } else {
+                    start[j] = 0;
+                }
+            }
+            counterMap[start]++;
+        }
+    } else if(model.get(GRB_IntAttr_Status) == GRB_INFEASIBLE) {
+        cout << "No monomials " << endl;
+        exit(1);
+    } else {
+        cout << "Other status " << GRB_IntAttr_Status <<  endl;
+        exit(1);
+    }
+    for (auto it : counterMap) {
+        if (it.second % 2 == 1) {
+            term.push_back(it.first);
+        }
+    }
+}
+
+
+
