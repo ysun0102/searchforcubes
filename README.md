@@ -1,4 +1,4 @@
-# Cube attack on Trivium
+# Cube attacks on Trivium and Kreyvium
 This is the repository for the paper "Automatic Search of Cubes for Attacking Stream Ciphers".
 
 ## Contents
