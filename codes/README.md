@@ -1,6 +1,6 @@
 ## Uasage:
 
-### Revise "Makefile" if necessary.
+### Revise "Makefile" if necessary
 
 1. Choose the algorithm by setting "ALG=TRIVIUM" or "ALG=TRIVIUM".
 
@@ -11,7 +11,7 @@
 4. Please check your version of Gurobi, and modify "-lgurobi91" if necessary.
 
 
-### To search for valuable cubes.
+### To search for valuable cubes
 
 1. Revise the initialization of "vector<wind_t> candidates" in "search.cpp".
 
@@ -28,7 +28,7 @@ If we want to search valuable cubes whose dimension is 77, we can choose a prese
 This command will search for all valuable cubes whose dimension is 77 and indexes are from {0, 1, ..., 19, 21, ..., 79}.
 
 
-### To retrieve the superpolys.
+### To retrieve the superpolys
 
 1. Revise the initialization of "vector<wind_t> candidates" in "retrieve.cpp".
 
@@ -46,3 +46,11 @@ If we want to recover the superpoly of a cube whose indexes are {0, 1, ..., 79} 
 
 `./retrieve_TRIVIUM.run 840 20 -1 10 26`
 
+The retrieved superpolys are expressed as lists of monomials. The following data 
+
+` 27  3`
+` 26  3`
+` 25 26  3`
+` 24 25  3`
+
+means the superpoly constains k_27, k_26, k_25 * k_26, k_24 * k_25. The number "3" is the number of solutions this monomial relates to.
