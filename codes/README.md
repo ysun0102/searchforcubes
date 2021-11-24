@@ -2,7 +2,7 @@
 
 ### Revise "Makefile" if necessary
 
-1. Choose the algorithm by setting "ALG=TRIVIUM" or "ALG=TRIVIUM".
+1. Choose the algorithm by setting "ALG=TRIVIUM" or "ALG=KREYVIUM".
 
 2. Append "-D USE_FIRST_CRITERION" to "MACRO=xxx" if the first criterion is to be used, while the second criterion is used by default.
 
