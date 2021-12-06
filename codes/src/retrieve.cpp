@@ -398,6 +398,18 @@ int main(int argc, const char * argv[]) {
 
     if (preset_cube_index >= 0) {
         // 3cubes
+        bool flag = false;
+        for (auto cd : candidates) {
+            if (cd == preset_cube_index) {
+                flag = true;
+                break;
+            }
+        }
+        if (!flag) {
+            printf("preset cube is not in candidates\n");
+            exit(1);
+        }
+        
         p_in->cubes[preset_cube_index] = S_0;
     }
 
