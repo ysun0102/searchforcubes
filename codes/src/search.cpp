@@ -582,6 +582,18 @@ int main(int argc, const char * argv[]) {
 
     if (preset_cube_index >= 0) {
         // 3cubes set preset_cube_index
+        bool flag = false;
+        for (auto cd : candidates) {
+            if (cd == preset_cube_index) {
+                flag = true;
+                break;
+            }
+        }
+        if (!flag) {
+            printf("preset cube is not in candidates\n");
+            exit(1);
+        }        
+        
         p_in->cube_degree = candidates.size() - 3;
         p_in->cubes[preset_cube_index] = S_0;
     }
